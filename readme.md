@@ -1,5 +1,5 @@
-General Idea of Game Layout
-https://docs.google.com/drawings/d/1S83RIx_lbu5lxSen-fPv8Ki1aEETndLgGscLt0Gf2m4/edit?usp=sharing
+Game WireFrames
+Inside images/wire-frames directory
 
 -------------------------------------------------------------------------------------------
 
