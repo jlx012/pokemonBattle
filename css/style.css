@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(
+        0deg,
+        white 0%,
+        red 100%
+    );
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 2.9em;
+    display: block;
+}
+
+#container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+canvas {
+    outline: black 3px solid;
+    background-color: rgb(115, 218, 253);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
