@@ -155,11 +155,13 @@ function loop() {
     if (gameStatus) {
         if (pikachu.lives === 0) {
             gameStatus = false;
+            ctx.clearRect(400, 5, 450, 60)
             ctx.font = '50px Ariel'
             ctx.fillText('You Lose!', 500, 50)
             return
         } else if (charizard.hp === 0) {
             gameStatus = false;
+            ctx.clearRect(400, 5, 450, 60)
             ctx.font = '50px Ariel'
             ctx.fillText('You Win!', 500, 50)
             return
@@ -196,8 +198,16 @@ function loop() {
         }
     })
 
-    if (timer % 100 === 0) {
-        charizard.fireball(charizardProjectiles)
+    if (charizard.hp > 50) {
+        if (timer % 100 === 0) {
+            charizard.fireball(charizardProjectiles)
+        }
+    } else if (charizard.hp <= 50) {
+        ctx.font = '50px Ariel'
+        ctx.fillText('Charizard is furious!', 400, 50)
+        if (timer % 50 === 0) {
+            charizard.fireball(charizardProjectiles)
+        }
     }
 
 
