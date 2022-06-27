@@ -35,7 +35,7 @@ class Pikachu {
         }
         // loading our pikachu image
         const image = new Image()
-        image.src = 'images/game-images/pikachumain.png'
+        image.src = './images/game-images/pikachumain.png'
         // creating our pikachus lives
         const lives = 3
 
@@ -69,7 +69,7 @@ class pikaProjectile {
         this.speed = speed
 
         const image = new Image()
-        image.src = 'images/game-images/lightningbolt.png'
+        image.src = './images/game-images/lightningbolt.png'
         // how much damage the projectile will do
         const dmg = 1
 
@@ -95,7 +95,7 @@ class charizardProjectile {
         this.speed = speed
 
         const image = new Image()
-        image.src = 'images/game-images/fireball.png'
+        image.src = './images/game-images/fireball.png'
         // how much damage the projectile will do
         const dmg = 1
 
@@ -123,7 +123,7 @@ class Charizard {
         }
     
         const image = new Image()
-        image.src = 'images/game-images/charizardboss.png'
+        image.src = './images/game-images/charizardboss.png'
         // HP for our charizard
         const hp = 100
 
