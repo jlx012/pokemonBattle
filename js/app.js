@@ -25,7 +25,7 @@ class Pikachu {
             y: 1,
         }
         const image = new Image()
-        image.src = '../images/game-images/pikachuMain.png'
+        image.src = '../images/game-images/pikachumain.png'
         const lives = 3
 
         this.lives = lives
@@ -105,7 +105,7 @@ class Charizard {
         }
     
         const image = new Image()
-        image.src = '../images/game-images/charizardBoss.png'
+        image.src = '../images/game-images/charizardboss.png'
         const hp = 100
 
         this.hp = hp
